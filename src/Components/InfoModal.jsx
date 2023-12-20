@@ -10,10 +10,10 @@ import PropTypes from 'prop-types';
 
 export default function InfoModal(props) {
     return (
-        <>
+        <div className="info-modal">
             <button className="close" onClick={() => { props.setInfoModal(false) }}>x</button>
             <h1>INFO</h1>
-        </>
+        </div>
     )
 }
 

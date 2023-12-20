@@ -1,0 +1,11 @@
+.info-modal {
+  padding: 2rem;
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  button {
+    position: absolute;
+    top: 0;
+    left: 95%;
+  }
+}
